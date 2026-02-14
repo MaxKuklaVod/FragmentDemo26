@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FinishTaskFragment"
-    android:background="@color/teal_200">
+    android:background="#FFF9C4"
+    android:orientation="vertical"
+    android:padding="24dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <EditText
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/finishTaskField"
-        android:textSize="16sp"
-        android:textColor="@color/teal_700"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:hint="Завершенные задачи"/>
+        android:text="Детальный прогноз"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/detailCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Город: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detailTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Температура: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detailCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Состояние: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detailHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Влажность: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detailWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ветер: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detailPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Давление: "
+        android:textSize="18sp" />
 
 </LinearLayout>
